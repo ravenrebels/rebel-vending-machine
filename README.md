@@ -14,6 +14,9 @@ You install/setup this service and configure "jobs" in a new file called jobs.js
 In that file, you define that you want to sell LEMONADE tokens, 1 at a time for the price of 10 RVN.  
 **And**, this is important, you need two wallets (as 12-word mnemonic keys):
 
+Demo video: https://youtu.be/eCeMN5yx11U
+
+
 ### `externalWallet`
 
 This is the end-user-facing wallet. It is the wallet that end users will pay to.  
