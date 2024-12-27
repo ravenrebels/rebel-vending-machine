@@ -1,5 +1,6 @@
 # Rebel Vending Machine
-![image](https://github.com/user-attachments/assets/6657cb96-a69b-42f2-b0c9-9a9b9a96e9b4)
+<img src="https://github.com/user-attachments/assets/6657cb96-a69b-42f2-b0c9-9a9b9a96e9b4" alt="Rebel Vending Machine Logo" width="400">
+
 
 
 This repository contains a Node.js-based service for selling assets on the Ravencoin and Evrmore blockchains. The service automates the process of monitoring payments and sending tokens in exchange for received payments. You only interact with buyers/customers on the chain. There is no graphical user interface for the end user.
