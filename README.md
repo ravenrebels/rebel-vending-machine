@@ -51,7 +51,10 @@ Advanced Configuration
 Usage
 
 1. Start the service:
-   `npm start`
+   Run the command: `npm start`
+   The service will display its external address.
+   Send the assets you want to sell to this address.
+   Example output: `External address mp6V9b8Kpufq1WLan6Xe5pfa1S1dzt5zaX`
 
 2. The service will continuously monitor incoming payments and process jobs as defined in jobs.json.
 
