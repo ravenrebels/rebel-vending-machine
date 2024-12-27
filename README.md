@@ -22,7 +22,7 @@ Getting Started
    git clone https://github.com/ravenrebels/vending-machine.git
 
 2. Install dependencies:
-   Change directory: cd vending-machine
+   Change directory: cd rebel-vending-machine
    Install dependencies: npm install
 
 3. Configure the service:
