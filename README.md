@@ -28,18 +28,20 @@ Getting Started
 3. Configure the service:
    Create a file called jobs.json in the current directory with the following content:
 
+```JSON
    [
-   {
-   "amount": 1,
-   "assetName": "DRUNK",
-   "price": 10,
-   "externalWallet": "12 words 12 words 12 words",
-   "internalWallet": "12 words 12 words 12 words",
-   "network": "rvn"
-   }
+      {
+         "amount": 1,
+         "assetName": "DRUNK",
+         "price": 10,
+         "externalWallet": "12 words 12 words 12 words",
+         "internalWallet": "12 words 12 words 12 words",
+         "network": "rvn"
+      }
    ]
+```
 
-   This configuration specifies that upon receiving 10 RVN on the Ravencoin network, the service will send 1 "DRUNK" asset to the payer.
+This configuration specifies that upon receiving 10 RVN on the Ravencoin network, the service will send 1 "DRUNK" asset to the payer.
 
 Advanced Configuration
 
