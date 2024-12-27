@@ -38,7 +38,7 @@ This is where the funds are deposited. After each purchase, the remaining funds 
 ## Getting Started
 
 1. Clone the Git repository:  
-   git clone https://github.com/ravenrebels/vending-machine.git
+   git clone https://github.com/ravenrebels/rebel-vending-machine.git
 
 2. Install dependencies:
 
