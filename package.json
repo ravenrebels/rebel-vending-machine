@@ -1,0 +1,16 @@
+{
+  "name": "vending-machine",
+  "version": "1.0.0",
+  "description": "A digital vending machine for Ravencoin and Evrmore",
+  "main": "index.js",
+  "scripts": {
+    "start": "node vending.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Raven Rebels / Dick Larsson",
+  "license": "ISC",
+  "dependencies": {
+    "@ravenrebels/ravencoin-jswallet": "^0.9.4"
+  }
+}
