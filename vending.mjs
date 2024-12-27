@@ -174,7 +174,7 @@ function validateConfiguration() {
 
   if (!fs.existsSync("./jobs.json")) {
     console.error("Configuration file jobs.json not found");
-    console.log("Please create the file job.json");
+    console.log("Please create the file jobs.json");
     console.log("Add your jobs");
     console.log("Example configuration:");
     console.log(JSON.stringify(example, null, 2));
