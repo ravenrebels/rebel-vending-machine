@@ -9,7 +9,6 @@ Sir, how does it work technically?
 - Customizable Jobs: Configure asset sales with specific amounts, prices, and wallets.
 - Error Handling: Graceful error management to ensure reliability.
 - UTXO Tracking: Prevents double-spending or reprocessing of UTXOs by tracking already processed transactions.
-- Wallet Creation: Facilitates the creation of new wallets adhering to the BIP44 standard.
 
 Prerequisites
 
@@ -43,6 +42,7 @@ Getting Started
 
 This configuration specifies that upon receiving 10 RVN on the Ravencoin network, the service will send 1 "DRUNK" asset to the payer.
 
+You an use https://ravencoin.org/bip44/ to create wallets / mnemonic keys / 12 words
 Advanced Configuration
 
 - Ravencoin testnet is supported; use "network": "rvn-test".
