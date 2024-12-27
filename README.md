@@ -2,7 +2,7 @@ Rebel Vending Machine
 
 This repository contains a Node.js-based service for selling assets on the Ravencoin and Evrmore blockchains. The service automates the process of monitoring payments and sending tokens in exchange for received payments. You only interact with buyers/customers on the chain. There is no graphical user interface for the end user.
 
-Features
+Sir, how does it work technically?
 
 - Payment Monitoring: Automatically monitors incoming payments (UTXOs) to a specified wallet.
 - Token Sending: Sends tokens back to the payer upon receiving a valid payment.
