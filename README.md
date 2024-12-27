@@ -110,4 +110,4 @@ For more information and support, visit the Raven Rebels GitHub repository:
 https://github.com/ravenrebels
 
 For a visual demonstration of the Rebel Vending Machine in action, you can watch the following video:  
-Rebel Vending Machine Demonstration: https://www.youtube.com/watch?v=cNyhnypl0Kk
+[Rebel Vending Machine Demonstration: https://www.youtube.com/watch?v=cNyhnypl0Kk](https://youtu.be/eCeMN5yx11U)
