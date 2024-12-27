@@ -10,7 +10,7 @@ const jobs = JSON.parse(fs.readFileSync("./jobs.json", "utf-8"));
 let running = true;
 process.on("SIGINT", () => {
   running = false;
-  console.log("Shutting down gracefully...");
+  console.log("Shutting down gracefully...This can take up to 20 seconds");
 });
 
 const skippedUTXOs = new Set(); // Set to track skipped UTXOs by unique ID
@@ -24,7 +24,7 @@ const skippedUTXOs = new Set(); // Set to track skipped UTXOs by unique ID
         console.error("Error processing job:", e);
       }
     }
-    await sleep(30 * 1000);
+    await sleep(20 * 1000);
   }
 })();
 
@@ -63,7 +63,7 @@ async function work(job) {
     });
 
     for (let utxo of utxos) {
-      const utxoKey = `${utxo.txid}:${utxo.vout}`; // Unique key for UTXO
+      const utxoKey = JSON.stringify(utxo, null, 4); // Unique key for UTXO
 
       if (skippedUTXOs.has(utxoKey)) {
         continue;
@@ -88,11 +88,11 @@ async function work(job) {
       }
 
       if (
-        externalWallet.isSpentInMempool(utxo) ||
-        internalWallet.isSpentInMempool(utxo)
+        (await externalWallet.isSpentInMempool(utxo)) ||
+        (await internalWallet.isSpentInMempool(utxo))
       ) {
         console.debug(`Skipping UTXO (${utxoKey}): Already spent in mempool`);
-        skippedUTXOs.add(utxoKey);
+
         continue;
       }
 
