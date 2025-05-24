@@ -11,6 +11,6 @@
   "author": "Raven Rebels / Dick Larsson",
   "license": "ISC",
   "dependencies": {
-    "@ravenrebels/ravencoin-jswallet": "^0.9.4"
+    "@ravenrebels/ravencoin-jswallet": "^0.12.0"
   }
 }
